@@ -8,6 +8,9 @@ import json
 About_App = "API CREATED BY <h2>ZEESHAN AKBAR</h2> <i>KHARKIV</i><br><b>EUROPE</b>"
 app = Flask(__name__)
 
+@app.route('/favicon.ico')
+def sample():
+     return ""
 
 @app.route('/')
 def main():
