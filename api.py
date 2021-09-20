@@ -92,7 +92,7 @@ def query():
                 res.append(r)
             db.close()
             return json.dumps(res,separators=(',', ':'))
-        return "NA"
+        return "NA~"
     except Exception as e:
         print(e)
         return "NA"
